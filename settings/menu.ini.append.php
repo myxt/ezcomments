@@ -8,8 +8,8 @@ Tabs[]=ezcomments
 
 [Topmenu_ezcomments]
 NavigationPartIdentifier=ezcommentsnavigationpart
-Name=eZ Comments
-Tooltip=eZ Comments dashboard
+Name=Reacties
+Tooltip=Reacties beheren
 URL[]
 URL[default]=comment/list
 Enabled[]
