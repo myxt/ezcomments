@@ -1,461 +1,461 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ja_JP">
+<TS version="2.0" language="it_IT">
 <context>
     <name>comments/comment/menu</name>
     <message>
         <source>eZ Comments</source>
-        <translation type="unfinished"></translation>
+        <translation>eZ Comments</translation>
     </message>
     <message>
         <source>Comments list</source>
-        <translation type="unfinished"></translation>
+        <translation>Elenco commenti</translation>
     </message>
 </context>
 <context>
     <name>design/admin/parts/user/menu</name>
     <message>
         <source>Change the left menu width to small size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Riduci l&apos;ampiezza del menù di sinistra.</translation>
     </message>
     <message>
         <source>Small</source>
-        <translation type="unfinished"></translation>
+        <translation>Piccolo</translation>
     </message>
     <message>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Medio</translation>
     </message>
     <message>
         <source>Change the left menu width to large size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aumenta l&apos;ampiezza del menù di sinistra.</translation>
     </message>
     <message>
         <source>Large</source>
-        <translation type="unfinished"></translation>
+        <translation>Grande</translation>
     </message>
     <message>
         <source>Change the left menu width to medium size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Modifica l&apos;ampiezza del menù di sisnistra a media.</translation>
     </message>
 </context>
 <context>
     <name>design/ezwebin/user/edit</name>
     <message>
         <source>User profile</source>
-        <translation>ユーザプロフィール</translation>
+        <translation>Profilo utente</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>ユーザ名</translation>
+        <translation>Nome utente</translation>
     </message>
     <message>
         <source>Email</source>
-        <translation>メール</translation>
+        <translation>Email</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>名前</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>My drafts</source>
-        <translation>ドラフト</translation>
+        <translation>Le mie bozze</translation>
     </message>
     <message>
         <source>My orders</source>
-        <translation>注文</translation>
+        <translation>I miei ordini</translation>
     </message>
     <message>
         <source>My pending items</source>
-        <translation>保留アイテム</translation>
+        <translation>I miei elementi in attesa</translation>
     </message>
     <message>
         <source>My notification settings</source>
-        <translation>通知設定</translation>
+        <translation>Le impostazioni delle mie notifiche</translation>
     </message>
     <message>
         <source>My wish list</source>
-        <translation>ウィッシュリスト</translation>
+        <translation>La mia lista dei desideri</translation>
     </message>
     <message>
         <source>Edit profile</source>
-        <translation>プロフィール編集</translation>
+        <translation>Modifica profilo</translation>
     </message>
     <message>
         <source>Change password</source>
-        <translation>パスワード変更</translation>
+        <translation>Modifica password</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/class/edit</name>
     <message>
         <source>eZ Comments warning: the reCAPTCHA key is not set up properly.</source>
-        <translation>eZ Comments警告: reCAPTCHAキーは正しく設定されていません。</translation>
+        <translation>Avviso di eZ Comments: la chiave reCAPTCHA non è impostata nel modo giusto.</translation>
     </message>
     <message>
         <source>Please get a reCAPTCHA key from &lt;a href=&quot;https://admin.recaptcha.net/recaptcha/createsite&quot; target=&quot;_blank&quot;&gt;https://admin.recaptcha.net/recaptcha/createsite&lt;/a&gt; then set it up in eZ Comments, or disable CAPTCHA feature.</source>
-        <translation>&lt;a href=&quot;https://admin.recaptcha.net/recaptcha/createsite&quot; target=&quot;_blank&quot;&gt;https://admin.recaptcha.net/recaptcha/createsite&lt;/a&gt;からreCAPTCHAキーをもらって、eZ Commentsで設定してください。また、キャプチャ機能を無効にすることができます。</translation>
+        <translation>Preleva una chiave reCAPTCHA da &lt;a href=&quot;https://admin.recaptcha.net/recaptcha/createsite&quot; target=&quot;_blank&quot;&gt;https://admin.recaptcha.net/recaptcha/createsite&lt;/a&gt; e impostala in eZ Comments, o disabilita la funzione CAPTCHA.</translation>
     </message>
     <message>
         <source>For more details please visit &lt;a href=&quot;http://projects.ez.no/ezcomments&quot; target=&quot;_blank&quot;&gt;http://projects.ez.no/ezcomments&lt;/a&gt;.</source>
-        <translation>詳細情報に&lt;a href=&quot;http://projects.ez.no/ezcomments&quot; target=&quot;_blank&quot;&gt;http://projects.ez.no/ezcomments&lt;/a&gt;を参照してください。</translation>
+        <translation>Per maggiori dettagli visita &lt;a href=&quot;http://projects.ez.no/ezcomments&quot; target=&quot;_blank&quot;&gt;http://projects.ez.no/ezcomments&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/action</name>
     <message>
         <source>Back</source>
-        <translation>前</translation>
+        <translation>Indietro</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>削除</translation>
+        <translation>Elimina</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation>Annulla</translation>
     </message>
     <message>
         <source>Update comment</source>
-        <translation>コメント更新</translation>
+        <translation>Aggiorna il commento</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/activate</name>
     <message>
-        <source>There is no subscription with the hash string!</source>
-        <translation>ハッシュ文字列を持った通知登録はありません!</translation>
-    </message>
-    <message>
-        <source>The subscriber is disabled!</source>
-        <translation>通知登録者は無効です!</translation>
-    </message>
-    <message>
         <source>The subscription is activated!</source>
-        <translation>通知登録は有効になりました!</translation>
+        <translation>L&apos;iscrizione è attiva!</translation>
     </message>
     <message>
         <source>Go to settings</source>
-        <translation>設定へ</translation>
+        <translation>Vai alle impostazioni</translation>
+    </message>
+    <message>
+        <source>There is no subscription with the hash string!</source>
+        <translation>Non vi sono iscrizioni con il cancelletto!</translation>
+    </message>
+    <message>
+        <source>The subscriber is disabled!</source>
+        <translation>L&apos;iscritto è disabilitato!</translation>
     </message>
     <message>
         <source>Activate subscription</source>
-        <translation>通知登録を有効にする</translation>
+        <translation>Attiva iscrizione</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/activationnotification</name>
     <message>
         <source>Dear %email,</source>
-        <translation>%emailさん</translation>
+        <translation>Caro/a %email,</translation>
     </message>
     <message>
         <source>You have subscribed to comment update on content. Before you start the service, you need to confirm the subscription.</source>
-        <translation>コンテンツのコメント更新の通知に登録しました。サービスの開始前に通知設定を確認する必要があります。</translation>
+        <translation>Ti sei iscritto/a per commentare dei contenuti. Prima di cominciare, devi confermare l&apos;iscrizione.</translation>
     </message>
     <message>
         <source>Please click the link to activate.</source>
-        <translation>有効にするためにはリンクをクリックしてください。</translation>
+        <translation>Premi il link per l&apos;attivazione.</translation>
     </message>
     <message>
         <source>The activation will expire after %expiry_days days.</source>
-        <translation>有効リンクは%expiry_hours時間後に無効となります。</translation>
+        <translation>L&apos;attivazione scadrà fra %expiry_days giorni.</translation>
     </message>
     <message>
         <source>The activation will expire after %expiry_hours hours.</source>
-        <translation>有効リンクは%expiry_hours時間後に無効となります。</translation>
+        <translation>L&apos;attivazione scadrà fra %expiry_hours ore.</translation>
     </message>
     <message>
         <source>If you do not want to receive the subscription email, ignore this email.</source>
-        <translation>通知メールが不要の場合にこのメールを無視してください。</translation>
+        <translation>Se non vuoi ricevere l&apos;email di iscrizione, ignora questa email.</translation>
     </message>
     <message>
         <source>You can go to your setting page to manage your subscription.</source>
-        <translation>設定ページに、通知登録を管理できます。</translation>
+        <translation>Puoi andare sulla tua pagina delle impostazioni per gestire la tua iscrizione.</translation>
     </message>
     <message>
         <source>Activate your subscription</source>
-        <translation>通知登録を有効にする</translation>
-    </message>
-    <message>
-        <source>Hi,</source>
-        <translation>こんにちは、</translation>
+        <translation>Attiva la tua iscrizione</translation>
     </message>
     <message>
         <source>posted a new comment on</source>
-        <translation>次のページに新しいコメント</translation>
+        <translation>postato un nuovo commento su</translation>
     </message>
     <message>
         <source>Comment summary</source>
-        <translation>コメントサマリ</translation>
+        <translation>Riassunto commento</translation>
     </message>
     <message>
         <source>To reply the content, please visit</source>
-        <translation>コンテンツに返事する次に行ってください</translation>
+        <translation>Per rispondere al contenuto, visita</translation>
     </message>
     <message>
         <source>For setting your subscription, please visit</source>
-        <translation>通知設定には次のリンクを参照にしてください</translation>
+        <translation>Per impostare la tua iscrizione, visita</translation>
     </message>
     <message>
         <source>(You need to login)</source>
-        <translation>（ログイン必要）</translation>
+        <translation>(Devi effettuare il login)</translation>
     </message>
     <message>
         <source>There are updates from</source>
-        <translation>次のオブジェクトの更新通知となります</translation>
+        <translation>Ci sono aggiornamenti da</translation>
+    </message>
+    <message>
+        <source>Hi,</source>
+        <translation>Ciao,</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/add</name>
     <message>
-        <source>Not a valid email address.</source>
-        <translation>有効なメールアドレスではありません。</translation>
-    </message>
-    <message>
-        <source>The words you input are incorrect.</source>
-        <translation>入力した言葉が不正です。</translation>
-    </message>
-    <message>
-        <source>Captcha parameter error.</source>
-        <translation>キャプチャパラメターエラー。</translation>
-    </message>
-    <message>
-        <source>%1 is missing.</source>
-        <translation>%1が不足しています。</translation>
-    </message>
-    <message>
-        <source>The field [%1] is empty.</source>
-        <translation>[%1]フィールドは空。</translation>
-    </message>
-    <message>
-        <source>Javascript code in url is not allowed.</source>
-        <translation>URLにJavascriptコードは禁断されています。</translation>
-    </message>
-    <message>
-        <source>Email link in url is not allowed.</source>
-        <translation>URLにメールリンクは禁断されています。</translation>
-    </message>
-    <message>
         <source>Your comment has been posted.</source>
-        <translation>コメントが投稿されました。</translation>
+        <translation>I tuoi commenti sono stati postati.</translation>
     </message>
     <message>
         <source>reCAPTCHA API key missing.</source>
-        <translation>reCAPTCHA APIのキーがありません。</translation>
+        <translation>Chiavi API reCAPTCHA mancanti.</translation>
+    </message>
+    <message>
+        <source>Not a valid email address.</source>
+        <translation>Indirizzo email non valido.</translation>
+    </message>
+    <message>
+        <source>The words you input are incorrect.</source>
+        <translation>Le parole che inserisci non sono corrette.</translation>
+    </message>
+    <message>
+        <source>Captcha parameter error.</source>
+        <translation>Errore parametro Captcha.</translation>
+    </message>
+    <message>
+        <source>%1 is missing.</source>
+        <translation>%1 mancante.</translation>
+    </message>
+    <message>
+        <source>The field [%1] is empty.</source>
+        <translation>Il campo [%1] è vuoto.</translation>
+    </message>
+    <message>
+        <source>Javascript code in url is not allowed.</source>
+        <translation>Il codice javascript nella url non è permesso.</translation>
+    </message>
+    <message>
+        <source>Email link in url is not allowed.</source>
+        <translation>Il link email nella url non è permesso.</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation>コメントの追加</translation>
+        <translation>Aggiungi commento</translation>
     </message>
     <message>
         <source>Commenting has been turned off for this content.</source>
-        <translation>このコンテンツにコメントは無効です。</translation>
+        <translation>I commenti per questo contenuto sono stati disabilitati.</translation>
     </message>
     <message>
         <source>You have already subscribed to comment updates on this content.</source>
-        <translation>このコンテンツのコメント更新通知にすでに登録しました。</translation>
+        <translation>Ti sei già iscritto per commentare questo contenuto.</translation>
     </message>
     <message>
         <source>You will receive comment updates on the content.</source>
-        <translation>コメント更新通知が届きます。</translation>
+        <translation>Riceverai gli aggiornamenti dei commenti sul contenuto.</translation>
     </message>
     <message>
         <source>A confirmation email has been sent to your email address. You will receive comment updates after confirmation.</source>
-        <translation>確認のメールをアドレスに送りました。確認後にコメント更新通知をもらいます。</translation>
+        <translation>Un&apos;email di conferma è stata inviata al tuo indirizzo email. Riceverai gli aggiornamenti dei commenti dopo la conferma.</translation>
     </message>
     <message>
         <source>You should not access this view directly.</source>
-        <translation>このビューに直接アクセスしない様にしてください。</translation>
+        <translation>Non puoi accedere direttamente a questa visualizzazione.</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/add/form</name>
     <message>
         <source>Post comment</source>
-        <translation>コメントを投稿</translation>
+        <translation>Posta un commento</translation>
     </message>
     <message>
         <source>Title:</source>
-        <translation>タイトル:</translation>
+        <translation>Titolo:</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation>名前:</translation>
+        <translation>Nome:</translation>
     </message>
     <message>
         <source>Website:</source>
-        <translation>ウェブサイト:</translation>
+        <translation>Sito web:</translation>
     </message>
     <message>
         <source>Email:</source>
-        <translation>メール:</translation>
+        <translation>Email:</translation>
     </message>
     <message>
         <source>(The email address will not be shown)</source>
-        <translation>(メールアドレスは表示されません)</translation>
+        <translation>(L&apos;indirizzo email non verrà mostrato)</translation>
     </message>
     <message>
         <source>Content:</source>
-        <translation>コンテント:</translation>
+        <translation>Contenuto:</translation>
     </message>
     <message>
         <source>Notify me of new comments</source>
-        <translation>新規コメントの通知</translation>
-    </message>
-    <message>
-        <source>Security text:</source>
-        <translation>セキュリティテキスト:</translation>
-    </message>
-    <message>
-        <source>Enter both words below, with or without a space.</source>
-        <translation>二つの言葉を下記に入力してください。</translation>
-    </message>
-    <message>
-        <source>The letters are not case-sensitive.</source>
-        <translation>大文字と小文字は区別されません。</translation>
-    </message>
-    <message>
-        <source>Can&apos;t read this?</source>
-        <translation>読めれない？</translation>
-    </message>
-    <message>
-        <source>Try another</source>
-        <translation>変更する</translation>
+        <translation>Notificami i nuovi commenti</translation>
     </message>
     <message>
         <source>Remember me</source>
-        <translation>情報を覚える</translation>
+        <translation>Ricordami</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation>コメントの追加</translation>
+        <translation>Aggiungi commento</translation>
     </message>
     <message>
         <source>Reset form</source>
-        <translation>フォームのリセット</translation>
+        <translation>Reimposta il modulo</translation>
     </message>
     <message>
         <source>Notified of new comments</source>
-        <translation>新規コメントの通知設定有効</translation>
+        <translation>Notificato dei nuovi commenti</translation>
+    </message>
+    <message>
+        <source>Enter both words below, with or without a space.</source>
+        <translation>Inserisci entrambe le parole sottostanti, con o senza spazi.</translation>
+    </message>
+    <message>
+        <source>The letters are not case-sensitive.</source>
+        <translation>Le lettere non sono case-sensitive.</translation>
+    </message>
+    <message>
+        <source>Can&apos;t read this?</source>
+        <translation>Non riesci a leggerlo?</translation>
+    </message>
+    <message>
+        <source>Try another</source>
+        <translation>Provane un&apos;altra</translation>
+    </message>
+    <message>
+        <source>Security text:</source>
+        <translation>Testo di sicurezza:</translation>
     </message>
     <message>
         <source>There is a problem with your comment form </source>
-        <translation>コメントフォームに問題があります</translation>
+        <translation>C&apos;è un problema con il tuo modulo dei commenti</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/delete</name>
     <message>
         <source>Delete comment?</source>
-        <translation>コメントを削除する？</translation>
+        <translation>Eliminare il commento?</translation>
     </message>
     <message>
         <source>Deleting failed!</source>
-        <translation>削除が失敗しました！</translation>
+        <translation>Eliminazione non riuscita!</translation>
     </message>
     <message>
         <source>You don&apos;t have access to delete comment or the comment is hidden!</source>
-        <translation>このコメントを削除する権限ありませんかコメントが非表示になっています!</translation>
+        <translation>Non sei abilitato all&apos;eliminazione dei commenti oppure il commento è nascosto!</translation>
     </message>
     <message>
         <source>Delete comment</source>
-        <translation>コメント削除</translation>
+        <translation>Elimina il commento</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/edit</name>
     <message>
         <source>You don&apos;t have access to edit.</source>
-        <translation>編集の権限ありません。</translation>
+        <translation>Non sei abilitato alla modifica.</translation>
     </message>
     <message>
         <source>Edit comment</source>
-        <translation>コメント編集</translation>
+        <translation>Modifica il commento</translation>
     </message>
     <message>
         <source>Updating failed.</source>
-        <translation>更新失敗。</translation>
+        <translation>Aggiornamento non riuscito.</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/list</name>
     <message>
         <source>Comments list</source>
-        <translation type="unfinished"></translation>
+        <translation>Elenco commenti</translation>
     </message>
     <message>
         <source>Select all comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona tutti i commenti</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Commento</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation type="unfinished"></translation>
+        <translation>Nodo</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Modificato</translation>
     </message>
     <message>
         <source>IP address</source>
-        <translation type="unfinished"></translation>
+        <translation>Indirizzo IP</translation>
     </message>
     <message>
         <source>Edit comment</source>
-        <translation type="unfinished">コメント編集</translation>
+        <translation>Modifica il commento</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Elimina selezionati</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/notification</name>
     <message>
         <source>New comment</source>
-        <translation>新規コメント</translation>
+        <translation>Nuovo commento</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/removecomments</name>
     <message>
+        <source>Remove comments</source>
+        <translation>Elimina commenti</translation>
+    </message>
+    <message>
         <source>Confirm comments removal</source>
-        <translation type="unfinished"></translation>
+        <translation>Conferma l&apos;eliminazione dei commenti</translation>
     </message>
     <message>
         <source>Are you sure you want to remove selected comments?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sei sicuro di voler eliminare i commenti selezionati?</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
-    </message>
-    <message>
-        <source>Remove comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Annulla</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/setting</name>
     <message>
         <source>The subscriber doesn&apos;t exist.</source>
-        <translation>通知登録者は存在しません。</translation>
+        <translation>L&apos;iscritto non esiste.</translation>
     </message>
     <message>
         <source>You are not subscribing to any content.</source>
-        <translation>コンテンツに通知登録をしていません。</translation>
+        <translation>Non sei iscritto per alcun contenuto.</translation>
     </message>
     <message>
         <source>You have updated comment settings.</source>
-        <translation>コメント設定を更新しました。</translation>
+        <translation>Hai aggiornato le impostazioni dei commenti.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -463,85 +463,85 @@
     </message>
     <message>
         <source>Select</source>
-        <translation>選択</translation>
+        <translation>Seleziona</translation>
     </message>
     <message>
         <source>Content</source>
-        <translation>コンテンツ</translation>
+        <translation>Contenuto</translation>
     </message>
     <message>
         <source>Subscription started</source>
-        <translation>通知開始</translation>
+        <translation>Iscrizione iniziata</translation>
     </message>
     <message>
         <source>Subscribed</source>
-        <translation>登録済み</translation>
+        <translation>Iscritto</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>保存</translation>
+        <translation>Registra</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>リセット</translation>
+        <translation>Reimposta</translation>
     </message>
     <message>
         <source>Comment settings</source>
-        <translation>コメント設定</translation>
+        <translation>Impostazioni commenti</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/view</name>
     <message>
         <source>wrote:</source>
-        <translation>書きました:</translation>
+        <translation>scrivi:</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>編集</translation>
+        <translation>Modifica</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>削除</translation>
+        <translation>Elimina</translation>
     </message>
     <message>
         <source>There is no comment.</source>
-        <translation>コメントがありません。</translation>
+        <translation>Non vi sono commenti.</translation>
     </message>
     <message>
         <source>You don&apos;t have access to view comment.</source>
-        <translation>コメントを表示できる権限がありません。</translation>
+        <translation>Non sei abilitato alla visualizzaizone del commento.</translation>
     </message>
     <message>
         <source>You don&apos;t have access to post comment.</source>
-        <translation>コメントを投稿できる権限がありません。</translation>
+        <translation>Non sei abilitato all&apos;invio del commento.</translation>
     </message>
     <message>
         <source>View all %total_count comments</source>
-        <translation>%total_countコメントを見る</translation>
+        <translation>Visualizza tutti i %total_count commenti</translation>
     </message>
     <message>
         <source>Total %total_count comments</source>
-        <translation>合計%total_countコメント</translation>
+        <translation>Totale %total_count commenti</translation>
     </message>
     <message>
         <source>The page parameter is not a number.</source>
-        <translation>ページパラメターはすっ辞でありません。</translation>
+        <translation>Il parametro della pagina non è un numero.</translation>
     </message>
     <message>
         <source>The page parameter can&apos;t be minus.</source>
-        <translation>ページパラメターはマイナスにできません。</translation>
+        <translation>Il parametro della pagina non può essere il segno meno.</translation>
     </message>
     <message>
         <source>Comment/View</source>
-        <translation>コメント/表示</translation>
+        <translation>Commenta/Visualizza</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/view/action</name>
     <message>
         <source>Back</source>
-        <translation>前</translation>
+        <translation>Indietro</translation>
     </message>
 </context>
 <context>
@@ -552,19 +552,19 @@
     </message>
     <message>
         <source>Previous page</source>
-        <translation>前のページ</translation>
+        <translation>Pagina precedente</translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>次のページ</translation>
+        <translation>Pagina successiva</translation>
     </message>
     <message>
         <source>Total comments:</source>
-        <translation>コメント数:</translation>
+        <translation>Commenti totali:</translation>
     </message>
     <message>
         <source>Pages:</source>
-        <translation>ページ:</translation>
+        <translation>Pagine:</translation>
     </message>
 </context>
 <context>
@@ -572,25 +572,25 @@
     <message>
         <source>Comments</source>
         <comment>Datatype name</comment>
-        <translation>コメント</translation>
+        <translation>Commenti</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/datatype/edit</name>
     <message>
         <source>Show comments</source>
-        <translation>コメントを表示</translation>
+        <translation>Mostra commenti</translation>
     </message>
     <message>
         <source>Enable commenting</source>
-        <translation>コメントを有効</translation>
+        <translation>Abilita commenti</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/ezwebin/user/edit</name>
     <message>
         <source>My comment settings</source>
-        <translation>コメント設定</translation>
+        <translation>Le mie impostazioni dei commenti</translation>
     </message>
 </context>
 </TS>

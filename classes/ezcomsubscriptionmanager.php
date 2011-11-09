@@ -152,8 +152,7 @@ class ezcomSubscriptionManager
         $transport = eZNotificationTransport::instance( 'ezmail' );
 
         $email = $subscriber->attribute( 'email' );
-        require_once( 'kernel/common/template.php' );
-        $tpl = templateInit();
+        $tpl = eZTemplate::factory();
         $tpl->setVariable( 'contentobject', $contentObject );
         $tpl->setVariable( 'subscriber', $subscriber );
         $tpl->setVariable( 'subscription', $subscription );

@@ -11,8 +11,7 @@
 $ini = eZINI::instance( 'debug.ini' );
 $ini->loadCache();
 
-require_once( 'kernel/common/template.php' );
-$tpl = templateInit();
+$tpl = eZTemplate::factory();
 
 $module = $Params['Module'];
 $http = eZHTTPTool::instance();
@@ -163,18 +162,14 @@ if ( $module->isCurrentAction( 'AddComment' ) )
         }
        
         //remember cookies
-        if ( $user->isAnonymous() )
+        $cookieManager = ezcomCookieManager::instance();
+        if ( $http->postVariable( 'CommentRememberme', false ) !== false || !$user->isAnonymous() )
         {
-            $cookieManager = ezcomCookieManager::instance();
-            if ( $http->hasPostVariable( 'CommentRememberme') &&
-                 $http->postVariable( 'CommentRememberme' ) == '1' )
-            {
-                $cookieManager->storeCookie( $comment );
-            }
-            else
-            {
-                $cookieManager->clearCookie();
-            }
+            $cookieManager->storeCookie( $comment );
+        }
+        else
+        {
+            $cookieManager->clearCookie();
         }
         
          eZContentCacheManager::clearContentCacheIfNeeded( $contentObjectId );

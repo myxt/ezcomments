@@ -6,8 +6,7 @@
  * @license http://ez.no/licenses/gnu_gpl GNU GPLv2
  *
  */
-require_once( 'kernel/common/template.php' );
-$tpl = templateInit();
+$tpl = eZTemplate::factory();
 $http = eZHTTPTool::instance();
 $user = eZUser::instance();
 

@@ -69,8 +69,7 @@ class ezcomSubscriptionManagerTest extends ezpDatabaseTestCase
          $subscription->setAttribute( 'hash_string', $hashString );
          $subscription->store();
          $id = $subscription->attribute( 'id' );
-         require_once( 'kernel/common/template.php' );
-         $tpl = templateInit();
+         $tpl = eZTemplate::factory();
          $subscriptionManager = ezcomSubscriptionManager::instance( $tpl, null, null, 'ezcomSubscriptionManager' );
          $subscriptionManager->activateSubscription( $hashString );
          $subscriptionActivated = ezcomSubscription::fetch( $id );

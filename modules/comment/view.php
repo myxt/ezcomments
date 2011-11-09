@@ -7,7 +7,6 @@
  *
  */
 
-require_once( 'kernel/common/template.php' );
 $http = eZHTTPTool::instance();
 
 // fetch the content object
@@ -41,7 +40,7 @@ if ( is_null( $objectAttribute ) )
     return;
 }
 
-$tpl = templateInit();
+$tpl = eZTemplate::factory();
 $tpl->setVariable( 'contentobject', $contentObject );
 $tpl->setVariable( 'node', $contentObject->mainNode() );
 $tpl->setVariable( 'objectattribute', $objectAttribute );
