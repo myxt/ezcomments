@@ -48,14 +48,17 @@ div.ezcom-comment-tool
 /* ----FORM FIELD---- */
 .ezcom-field-website input
 {
+    width: 200px;
 }
 
 .ezcom-field-title input
 {
+    width: 200px;
 }
 
 .ezcom-field-email input
 {
+    width: 200px;
 }
 
 span.ezcom-field-emailmessage
@@ -65,10 +68,12 @@ span.ezcom-field-emailmessage
 
 .ezcom-field-name input
 {
+    width: 200px;
 }
 
 .ezcom-field-content textarea
 {
+    width: 300px;
     height: 100px;
 }
 .ezcom-field-mandatory
