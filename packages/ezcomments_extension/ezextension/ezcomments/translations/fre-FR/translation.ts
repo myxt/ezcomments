@@ -93,8 +93,8 @@
         <translation>Attention : la clé reCAPTCHA n&apos;est définie correctement.</translation>
     </message>
     <message>
-        <source>Please get a reCAPTCHA key from &lt;a href=&quot;https://admin.recaptcha.net/recaptcha/createsite&quot; target=&quot;_blank&quot;&gt;https://admin.recaptcha.net/recaptcha/createsite&lt;/a&gt; then set it up in eZ Comments, or disable CAPTCHA feature.</source>
-        <translation>Veuillez récupérer une clé reCAPTCHA sur &lt;a href=&quot;https://admin.recaptcha.net/recaptcha/createsite&quot; target=&quot;_blank&quot;&gt;https://admin.recaptcha.net/recaptcha/createsite&lt;/a&gt; et configurer eZ Comments pour l&apos;utiliser ou désactiver le CAPTCHA.</translation>
+        <source>Please get a reCAPTCHA key from &lt;a href=&quot;https://www.google.com/recaptcha/admin/create&quot; target=&quot;_blank&quot;&gt;https://www.google.com/recaptcha/admin/create&lt;/a&gt; then set it up in eZ Comments, or disable CAPTCHA feature.</source>
+        <translation>Veuillez récupérer une clé reCAPTCHA sur &lt;a href=&quot;https://www.google.com/recaptcha/admin/create&quot; target=&quot;_blank&quot;&gt;https://www.google.com/recaptcha/admin/create&lt;/a&gt; et configurer eZ Comments pour l&apos;utiliser ou désactiver le CAPTCHA.</translation>
     </message>
     <message>
         <source>For more details please visit &lt;a href=&quot;http://projects.ez.no/ezcomments&quot; target=&quot;_blank&quot;&gt;http://projects.ez.no/ezcomments&lt;/a&gt;.</source>
@@ -136,7 +136,7 @@
     </message>
     <message>
         <source>Go to settings</source>
-        <translation>Paramètrages</translation>
+        <translation>Paramétrages</translation>
     </message>
     <message>
         <source>Activate subscription</source>
@@ -159,7 +159,7 @@
     </message>
     <message>
         <source>The activation will expire after %expiry_days days.</source>
-        <translation>L&apos;activation expirera après %expire_days jours.</translation>
+        <translation>L&apos;activation expirera après %expiry_days jours.</translation>
     </message>
     <message>
         <source>The activation will expire after %expiry_hours hours.</source>
@@ -171,7 +171,7 @@
     </message>
     <message>
         <source>You can go to your setting page to manage your subscription.</source>
-        <translation>Vous pouvez vous rendre sur votre page de paramètrages afin de gérer votre abonnement.</translation>
+        <translation>Vous pouvez vous rendre sur votre page de paramétrages afin de gérer votre abonnement.</translation>
     </message>
     <message>
         <source>Activate your subscription</source>
