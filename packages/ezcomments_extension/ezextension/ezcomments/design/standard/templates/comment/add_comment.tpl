@@ -92,8 +92,7 @@
                                                                                         'option_value', 'bypass_captcha' ) )}
              {if $bypass_captcha|not}
                 <div class="ezcom-field">
-                  <fieldset>
-                  <legend>{'Security text:'|i18n( 'ezcomments/comment/add/form' )}{$fieldRequiredText}</legend>
+                  <label>{'Security text:'|i18n( 'ezcomments/comment/add/form' )}{$fieldRequiredText}</label>
                   {if ezini( 'RecaptchaSetting', 'PublicKey', 'ezcomments.ini' )|eq('')}
                         <div class="message-warning">
                             {'reCAPTCHA API key missing.'|i18n( 'ezcomments/comment/add' )}
@@ -125,7 +124,6 @@
                        {/if}
                        {fetch( 'comment', 'recaptcha_html' )}
                   {/if}
-                 </fieldset>
                 </div>
              {/if}
              {undef $bypass_captcha}
@@ -139,8 +137,8 @@
             </div>
         {/if}
         <div class="ezcom-field">
-            <input type="submit" value="{'Add comment'|i18n( 'ezcomments/comment/add/form' )}" class="button" name="AddCommentButton" />
-            <input type="reset" class="button" value="{'Reset form'|i18n( 'ezcomments/comment/add/form' )}" />
+            <input type="submit" class="btn btn-primary" value="{'Add comment'|i18n( 'ezcomments/comment/add/form' )}" class="button" name="AddCommentButton" />
+            <input type="reset" class="btn" value="{'Reset form'|i18n( 'ezcomments/comment/add/form' )}" />
         </div>
 </div>
 </form>
