@@ -28,5 +28,10 @@ PolicyList[]=comment/list
 Name=ezcommentsmenu
 LinkNames[]
 Links[]
+
+[Leftmenu_content]
 Links[commentlist]=comment/list
+LinkNames[commentlist]=Comments list
+PolicyList_commentlist[]=comment/list
+
 */ ?>
