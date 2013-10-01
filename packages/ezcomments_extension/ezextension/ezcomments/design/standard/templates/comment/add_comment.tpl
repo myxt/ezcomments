@@ -11,11 +11,11 @@
 <input type="hidden" name="CommentLanguageCode" value="{$language_code}" />
 <input type="hidden" name="RedirectURI" value={$redirect_uri|ezurl} />
 
-<div class="ezcom-add">
+<div class="ezcom-add well">
         <div class="ezcom-function-title">
-            <h4>
+            <h2>
              {'Post comment'|i18n( 'ezcomments/comment/add/form' )}
-            </h4>
+            </h2>
         </div>
 
         {if $fields|contains( 'title' )}
