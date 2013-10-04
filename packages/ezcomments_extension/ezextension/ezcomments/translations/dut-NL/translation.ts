@@ -151,7 +151,7 @@
     </message>
     <message>
         <source>You have subscribed to comment update on content. Before you start the service, you need to confirm the subscription.</source>
-        <translation>Je wordt op de hoogte gehouden van nieuwe reacties. Voordat deze dienst wordt geactiveerd moet je je aanmelding bevestigen.</translation>
+        <translation>Je wordt op de hoogte gehouden van nieuwe reacties.</translation>
     </message>
     <message>
         <source>Please click the link to activate.</source>
