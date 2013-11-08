@@ -34,6 +34,7 @@ $contentObjectIDList = $db->arrayQuery( 'SELECT DISTINCT contentobject_id, langu
                                       );
 $notificationCount = 0;
 $mailCount = 0;
+
 foreach( $contentObjectIDList as $contentObjectArray )
 {
     $contentObjectID = $contentObjectArray['contentobject_id'];
@@ -118,6 +119,8 @@ foreach( $contentObjectIDList as $contentObjectArray )
                     }
                 }
             }
+            // handle extra receivers
+            $notificationManager->sendExtraNotifications( $contentObject );
         }
     }
     catch( Exception $ex )

@@ -45,4 +45,30 @@ class ezcomNotificationEmailManager extends ezcomNotificationManager
         }
         eZDebugSetting::writeNotice( 'extension-ezcomments', "An email has been sent to '$email' (subject: $subject)", __METHOD__ );
     }
+
+    /**
+     * Added support for admin notification.
+     * @param  string $subject
+     * @param  string $body
+     * @return bool
+     */
+    public function executeExtraReceiversSending( $subject, $body )
+    {
+        $parameters = array();
+        $parameters['content_type'] = $this->emailContentType;
+        $parameters['from'] = $this->emailFrom;
+        $transport = eZNotificationTransport::instance( 'ezmail' );
+
+        $ini = eZINI::instance( 'ezcomments.ini' );
+        $extraReceivers = $ini->variable( 'NotificationSettings', 'ExtraReceivers' );
+        foreach( $extraReceivers as $receiver )
+        {
+            $result = $transport->send( array( $receiver ), $subject, $body, null, $parameters );
+            if ( $result === false )
+            {
+                throw new Exception( 'Error sending email to extra receiver:' . $receiver );
+            }
+            eZDebugSetting::writeNotice( 'extension-ezcomments', "An email has been sent to '$email' (subject: $subject)", __METHOD__ );
+        }
+    }
 }

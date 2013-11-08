@@ -44,6 +44,9 @@ ActivationMailContentType=text/html
 #Make all the updated comment in one notification
 CommentsInOne=false
 
+#Extra emailadresses that receive notification
+ExtraReceivers[]
+
 #Number per cronjob executation
 NotificationNumberPerExecuation=10
 

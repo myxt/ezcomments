@@ -79,6 +79,22 @@ abstract class ezcomNotificationManager
          $this->executeSending( $subject, $body, $subscriber );
     }
 
+    public function sendExtraNotifications( $contentObject, $commentList = null, $tpl = null )
+    {
+         if ( is_null( $tpl ) )
+         {
+             $tpl = eZTemplate::factory();
+         }
+         $tpl->setVariable( 'contentobject', $contentObject );
+         if ( !is_null( $commentList ) )
+         {
+            $tpl->setVariable( 'comment_list', $commentList );
+         }
+         $subject = $tpl->fetch( $this->multiSubjectTemplatePath );
+         $body = $tpl->fetch( $this->multiBodyTemplatePath );
+         $this->executeExtraReceiversSending( $subject, $body );
+    }
+
     /**
      * create instance of the object
      * @param string $className
